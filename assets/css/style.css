@@ -1,0 +1,26 @@
+html {
+    background-color: grey;
+    width: 100%;
+
+}
+
+img {
+    width: 100%;
+}
+
+.bg{
+    
+}
+
+.container {
+    background-color: gold;
+}
+
+
+/* bootstrap class edits */
+.jumbotron .container {
+    max-width: 100%;
+    position: absolute;
+    top: 73%;
+    background-color: floralwhite;
+}
