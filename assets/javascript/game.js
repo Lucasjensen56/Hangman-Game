@@ -45,7 +45,7 @@ while (remainingLetters > 0) {
   }
 }
 // // Show the answer 
-alert(answerArray.join(" "));
+document.getElementById("answer").innerHTML=(answerArray.join(" "));
 alert("Good job! The answer was " + word);
 
 
