@@ -27,7 +27,7 @@ var remainingLetters = word.length;
  // The game loop
 while (remainingLetters > 0) {
 // Show the player the progress
-  alert(answerArray.join(" "));
+  document.getElementByID("blankLetters").innerHTML = (answerArray.join(" "));
 
 // Take a guess from the player
   var guess = prompt("Guess a letter, or click Cancel to stop player.");
@@ -45,7 +45,7 @@ while (remainingLetters > 0) {
   }
 }
 // // Show the answer 
-document.getElementById("answer").innerHTML=(answerArray.join(" "));
+alert(answerArray.join(" "));
 alert("Good job! The answer was " + word);
 
 
