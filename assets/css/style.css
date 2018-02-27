@@ -12,11 +12,17 @@ img {
     
 }
 
+.col-md-6 {
+    border: solid
+}
+
 
 .container {
-    background-color: gold;
-    margin-top: 37%;
+    background-color: grey;
+    margin-top: 15%;
     margin-bottom: 42%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 
@@ -27,3 +33,4 @@ img {
     top: 73%;
     background-color: floralwhite;
 }
+
