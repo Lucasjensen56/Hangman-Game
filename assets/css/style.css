@@ -1,7 +1,13 @@
-html {
-    background-color: grey;
+html, {
     width: 100%;
 
+}
+
+body {
+    background-image: url("../images/desiree-fabian-459349-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
 }
 
 img {
@@ -22,15 +28,16 @@ h1 {
 
 .container {
     background-color: grey;
-    margin-top: 15%;
+    margin-top: 12%;
     margin-bottom: 42%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
 p {
     text-align: center;
     line-height: 229%;
+
 }
 
 
@@ -41,5 +48,9 @@ p {
     position: absolute;
     top: 73%;
     background-color: floralwhite;
+}
+
+input {
+    margin-left: 39%;
 }
 

@@ -7,12 +7,14 @@
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-<script src="assets/javascript/game.js"></script>
 <title>Harry Potter Hangman Game</title>
 
 </head>
 
 <body>
+
+<script src="assets/javascript/game.js"></script>
+
 <div class="container-fluid">
     <header>
         <h1>Harry Potter Hangman</h1>
@@ -25,14 +27,14 @@
             <img src="https://vignette.wikia.nocookie.net/harrypotter/images/b/b6/Azkaban_concept_art.png/revision/latest?cb=20161216053518">
             </div>
             <div class="col-md-6">
-                <p>Press any key to get started!</p>
-                <p>wins</p>
-                <p>Current Word</p>
-                <p id="blankLetters"></p>
-                <p>filler ______ space</p>
-                <p>Number of remaining guesses</p>
-                <p>Letters already guessed</p>
-                <p id="answer"></p>
+                <p>Enter Your Guess below</p>
+                <input type="text" id="collectLetters">
+                <p>Wins ______</p>
+                <h1 id="wordBlanks"></h1>
+                <p></p>
+                <p>Number of remaining guesses ____________</p>
+                <p>Letters already guessed __________</p>
+                <p></p>
             </div>
         </div>
     </div>
