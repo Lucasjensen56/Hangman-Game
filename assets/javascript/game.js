@@ -49,24 +49,16 @@ while (remainingLetters > 0) {
 
 }
 
-
-if (word.indexOf (userGuess) > -1) {
-  //     alert("You guessed a correct letter");
-  
-  //     document.getElementById("theWord").innerHTML += userGuess;
-  //     document.getElementById("lettersGuessed").innerHTML += userGuess;
-  //     correct = correct + 1;
-  //     if (correct == 6) {
-  //       alert("you Won")
-  //       inititalizeGame();
-  //     }
-
-
   
 // // // Show the answer
 alert("Good job! The answer was " + word);
 
 
+  
+  
+  
+  
+  // Below is my second attempt at trying to get the code to write to my HTML page. Unforuantely, it still did not work. 
 
 
 // var words = [
