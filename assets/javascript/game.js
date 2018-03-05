@@ -49,7 +49,6 @@ while (remainingLetters > 0) {
 
 }
 
-
 alert("Good job! The answer was " + word);
 
 
